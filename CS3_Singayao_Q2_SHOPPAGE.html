@@ -1,0 +1,332 @@
+<!DOCTYPE htmL>
+<html>
+
+<head>
+<title> The Librarie: Shop Page </title>
+
+<style>
+
+body {
+background-color: #F6F4F3;
+margin: 0px;
+}
+
+#heading {
+background-color: #F6F4F3;
+margin-left: 80px;
+margin-right: 100px;
+padding: 10px;
+background-color: #F6F4F3;
+display: flex;
+flex-direction: row;
+}
+
+#logoimage {
+float: left;
+margin-left: 10px;
+margin-right: 10px
+}
+
+#title {
+font-size: 30px;
+font-family: Montserrat;
+font-style: bold;
+color: #31241E;
+margin-left: 10px;
+margin-right: 600px;
+}
+
+.menu-home {
+padding: 20px;
+font-family: Montserrat;
+font-style: bold;
+color: #86654B
+}
+
+.menu-about {
+padding: 20px;
+font-family: Montserrat;
+font-style: bold;
+color: #31241E
+}
+
+.menu-events {
+padding: 20px;
+font-family: Montserrat;
+font-style: bold;
+color: #31241E
+}
+
+.menu-shop {
+padding: 20px;
+font-family: Montserrat;
+font-style: bold;
+color: #31241E
+}
+
+.menu-socials {
+padding: 20px;
+font-family: Montserrat;
+font-style: bold;
+color: #31241E
+}
+
+.line-photo {
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 10px;
+}
+
+#header {
+font-family: Montserrat;
+font-style: bold;
+font-color: #31241E;
+padding: 5px;
+font-size: 26.1pt;
+width: 50%;
+margin: auto;
+}
+
+.content {
+font-family: Montserrat;
+font-style: bold;
+font-color: #31241E;
+padding: 5px;
+font-size: 11pt;
+width: 50%;
+margin: auto;
+}
+
+.toselect {
+	display: flex;
+	flex-direction: row;
+	}
+	
+#Action {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	width: 200px;
+	padding: 10px;
+	height: 350px;
+	margin-left: 50px;
+	background-color: #C80815;
+	}
+
+#Fantasy {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	width: 200px;
+	padding: 10px;
+	height: 350px;
+	margin-left: 20px;
+	background-color: #73C2FB;
+}
+
+#Classics {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	width: 200px;
+	padding: 10px;
+	height: 350px;
+	margin-left: 20px;
+	background-color: #FAEBD7;
+}
+	
+#Scifi {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	width: 200px;
+	padding: 10px;
+	height: 350px;
+	margin-left: 20px;
+	background-color: #4E7988;
+	}
+	
+#Romance {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	width: 200px;
+	padding: 10px;
+	height: 350px;
+	margin-left: 20px;
+	background-color: #FFA173;
+}
+	
+#Misc {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	width: 200px;
+	padding: 10px;
+	height: 350px;
+	margin-left: 20px;
+	background-color: #D6742B;
+}
+
+#Action-name {
+font-family: Montserrat;
+font-style: bold;
+font-color: #31241E;
+font-size: 26.1pt;
+margin-left: 25px;
+}
+
+#Fantasy-name {
+font-family: Montserrat;
+font-style: bold;
+font-color: #31241E;
+font-size: 26.1pt;
+margin-left: 25px;
+}
+
+#Classics-name {
+font-family: Montserrat;
+font-style: bold;
+font-color: #31241E;
+font-size: 26.1pt;
+margin-left: 25px;
+}
+
+#Scifi-name {
+font-family: Montserrat;
+font-style: bold;
+font-color: #31241E;
+font-size: 26.1pt;
+margin-left: 55px;
+}
+
+#Romance-name {
+font-family: Montserrat;
+font-style: bold;
+font-color: #31241E;
+font-size: 26.1pt;
+margin-left: 15px;
+}
+
+#Misc-name {
+font-family: Montserrat;
+font-style: bold;
+font-color: #31241E;
+font-size: 26.1pt;
+margin-left: 25px;
+}
+
+button{
+	margin-left: 55px;
+}
+	
+.toselect img{
+	translation-duration: 0.2s;
+}
+
+.toselect img:hover {
+	translate: transform;
+	transform: scale(1.1);
+}
+	
+#head {
+background-image: url(#);
+margin-left: 100px;
+margin-right: 140px;
+margin-bottom: 15px;
+background-color: #D1C8C1;
+}
+
+button {
+background-color: #D1C8C1;
+}
+
+a:link {
+background-color: #D1C8C1;
+}
+
+a:visited {
+background-color: #D1C8C1;
+}
+
+a:hover {
+background-color: #31241E;
+}
+
+a:active {
+background-color: #86654B
+}
+
+	
+</style>
+</head>
+
+<body>
+
+<div id="heading">
+<img id="logoimage" src="librarielogo.jpg" width="50px" height="50px" >
+<h1 id="title">LIBRARIE</h1>
+<div class="menu-home"> <a href="file:///C:/Users/erica/OneDrive/Documents/CS3_Singayao_Q1_HOMEPAGE.html"> HOME </a> </div>
+<div class="menu-about"> <a href="file:///C:/Users/erica/OneDrive/Documents/CS3_Singayao_Q1_ABOUTPAGE.html"> ABOUT </a> </div>
+<div class="menu-events"> <a href="file:///C:/Users/erica/OneDrive/Documents/CS3_Singayao_Q2_EVENTPAGE1.html"> EVENTS </a> </div>
+<div class="menu-shop"> <a href="#"> SHOP </a> </div>
+<div class="menu-socials"> <a href="file:///C:/Users/erica/OneDrive/Documents/CS3_Singayao_Q2_SOCIALS.html"> SOCIALS </a> </div>
+</div>
+
+<div>
+<img class="line-photo" src="https://color-hex.org/colors/31241e.png" width="1300px" height="5px">
+</div>
+
+<div id="head">
+<div id="header"> <center> ONLINE SHOP </center> </div>
+<div class="content"> <p> Explore our Online Shop and order books you desire! Aside from books of all genres, we also have sticker, hard bounds, and such! If you have any book suggestions, don't be shy and send us an email at thelibrarieph@gmail.com. Message us at our facebook page "The Librarie" and if you have any inquiries, message 0919 340 6383. </p> </div>
+</div>
+
+<div>
+<img class="line-photo" src="https://color-hex.org/colors/31241e.png" width="1300px" height="5px">
+</div>
+
+<div class = "toselect">
+
+<div id="Action"> 
+	<img class="Action-photo" src="actionphoto.jpg" width="200px" height="200px">
+	<p id="Action-name"> ACTION </p>
+	<span id="Type-link1"> <button> <a href="file:///C:/Users/erica/OneDrive/Documents/CS3_Singayao_Q2_SHOP-ACTION1.html"> EXPLORE </a> </button> </span>
+ </div>
+ 
+<div id="Fantasy">
+	<img class="Fantasy-photo" src="fantasyphoto.jpg" width="200px" height="200px"> 
+	<p id="Fantasy-name"> FANTASY </p>
+	<span id="Type-link2"> <button> <a href="file:///C:/Users/erica/OneDrive/Documents/CS3_Singayao_Q2_SHOP-FANTASY.html"> EXPLORE </a> </button> </span>
+</div>
+
+<div id="Classics"> 
+	<img class="Classics-photo" src="classicsphoto.jpg" width="200px" height="200px"> 
+	<p id="Classics-name"> CLASSIC </p>
+	<span id="Type-link3"> <button> <a href="file:///C:/Users/erica/OneDrive/Documents/CS3_Singayao_Q2_SHOP-CLASSICS.html"> EXPLORE </a> </button> </span>
+</div>
+
+<div id="Scifi">
+	<img class="Scifi-photo" src="scifiphoto.jpg" width="200px" height="200px"> 
+	<p id="Scifi-name"> SCIFI </p>
+	<span id="Type-link4"> <button> <a href="file:///C:/Users/erica/OneDrive/Documents/CS3_Singayao_Q2_SHOP-SCIFI.html"> EXPLORE </a> </button> </span>
+</div>
+
+<div id="Romance"> 
+	<img class="Romancephoto" src="romancephoto.jpg" width="200px" height="200px"> 
+	<p id="Romance-name"> ROMANCE </p>
+	<span id="Type-link5"> <button> <a href="file:///C:/Users/erica/OneDrive/Documents/CS3_Singayao_Q2_SHOP-ROMANCE.html"> EXPLORE </a> </button> </span>
+</div>
+
+<div id="Misc"> 
+	<img class="Misc-photo" src="miscphoto.jpg" width="200px" height="200px"> 
+	<p id="Misc-name"> MISC,ETC </p>
+	<span id="Type-link6"> <button> <a href="file:///C:/Users/erica/OneDrive/Documents/CS3_Singayao_Q2_SHOP-MISC.html"> EXPLORE </a> </button> </span>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
